@@ -18,6 +18,7 @@ namespace Oridey.Controllers
             DomainManager = new EntityDomainManager<TodoItem>(context, Request);
         }
 
+        //prepared dummy text
         // GET tables/TodoItem
         public IQueryable<TodoItem> GetAllTodoItems()
         {
